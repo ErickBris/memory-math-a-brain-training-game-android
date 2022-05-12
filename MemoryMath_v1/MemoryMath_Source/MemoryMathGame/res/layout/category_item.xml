@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gc.materialdesign.views.Card xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+         <com.gc.materialdesign.views.ProgressBarCircularIndetermininate
+                android:id="@+id/progressBarCircularIndetermininate"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="#1E88E5" />
+        <ImageView
+            android:id="@+id/message_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+             />
+         <com.gc.materialdesign.views.ButtonFlat
+                android:id="@+id/buttonSetWallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                android:visibility="gone"
+                
+                android:text="Set As Wallpaper" />
+    </LinearLayout>
+
+</com.gc.materialdesign.views.Card>
